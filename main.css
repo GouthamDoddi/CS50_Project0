@@ -1,0 +1,23 @@
+body {
+  background: #524372; }
+
+#big-picture {
+  margin-top: 25px; }
+
+.col-custom {
+  margin-top: 25px; }
+
+.navbar-brand-custom, #music {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #457b9d; }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #a8dadc; } }
+td, th {
+  border: 2px solid grey; }
+
+ol li ul {
+  color: red; }
+
+/*# sourceMappingURL=main.css.map */
