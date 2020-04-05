@@ -15,14 +15,16 @@ I have made this page quite simple and used @media
 quarey property.
 also I have @media to change the body color an all the pages.
 
-#home.html
+# home.html
 I have used css font-family to style the navbar-brand.
 And clicking on the navbar-brand will take you to the 
 home.html page.
 
-#music
+# music
 I have used nested list and a simple table here.
 I have also used scss inheritence and nesting here.
 
 Also I may not have covered all the details but 
 I made sure I have meet all the requirements of the Project. 
+
+abot the node modules. I think they were added when I instled and started using scss
