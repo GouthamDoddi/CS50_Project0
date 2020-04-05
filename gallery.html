@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand navbar-brand-custom" href="home.html">Space Guitars</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="gallery.html">Gallery(BS4 Grid)<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html">Music(SCSS)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Bizarre guitars</h1>
+            <hr>
+            <p class="lead">The bellow images use a bootstrap4 grid to meet the requirements.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4 col-custom">
+                <img src="https://i.pinimg.com/564x/cc/14/7a/cc147ad68b7fa959bd857e9c204d77eb.jpg" style="width:100%">
+            </div>
+            <div class="col-6 col-md-4 col-custom">
+                <img src="https://i.pinimg.com/564x/ae/7b/50/ae7b508957b5123af20f4a45416617d2.jpg" style="width:100%">
+            </div>
+            <div class="col-12 col-md-4" id="big-picture">
+                <img src="https://i.pinimg.com/564x/24/6f/db/246fdb1dfd09a46ac73c4771ca98abf2.jpg" style="width:100%">
+                <small>The last picture over her uses #id.</small>
+                <small>And the first two pictures use .class and margin property to
+                    satisfy the requirements.</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
